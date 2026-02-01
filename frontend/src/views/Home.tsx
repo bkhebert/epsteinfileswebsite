@@ -1,4 +1,7 @@
+// src/views/Home.tsx
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import epsteingroupphoto from "/epsteingroupphoto.png";
 import people from "../data/people";
 export default function Home() {
