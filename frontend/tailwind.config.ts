@@ -19,33 +19,11 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			covenantDark: '#1a132d',
-  			covenantLight: '#3a2a5d',
-  			covenantAccent: '#7c4dff',
-  			neonBlue: '#00e5ff',
-  			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
-  			},
-  			primarydark: '#1E142E',
-  			primarylight: '#A128E3',
-  			primaryglow: '#D8ABF4',
-  			cstmbackground: '#2b263d',
-  			cstmdarkaccent: '#412476',
-  			cstmgold: '#FFD700',
-  			cstmgray: '#4A4E69',
-  			cstmgreen: '#A8FF60',
-  			cstmred: '#FF4F58',
-  			cstmblack: '#111016',
-  			cstmneutral: '#E0E0E3',
-  			cstmblue: '#00D9FF',
-  			cstmwhite: '#F7F6F9',
-  			background: 'hsl(var(--background))',
-  			foreground: 'hsl(var(--foreground))',
-  			card: {
-  				DEFAULT: 'hsl(var(--card))',
-  				foreground: 'hsl(var(--card-foreground))'
-  			},
+        bg: "#0a0a0a",
+        fg: "#e0e0e0",
+        card: "#111111",
+        accentGreen: "#39ff14",
+        accentRed: "#ff3c38",
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',
   				foreground: 'hsl(var(--popover-foreground))'
